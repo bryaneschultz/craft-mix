@@ -1,0 +1,50 @@
+{
+    "name": "bryaneschultz/craft-mix",
+    "description": "Twig utility function to handle Laravel Mix files for Craft CMS.",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "craft3",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "laravel-mix",
+        "craft-mix",
+        "mix"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bryan E. Schultz",
+            "homepage": "https://github.com/bryaneschultz"
+        }
+    ],
+    "require": {
+        "php" : ">=7.4",
+        "craftcms/cms": "^3.0.0"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
+    "autoload": {
+        "psr-4": {
+            "bryaneschultz\\mix\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Mix",
+        "handle": "mix",
+        "developer": "Bryan E. Schultz",
+        "developerUrl": "https://github.com/bryaneschultz",
+        "schemaVersion": "1.0.0",
+        "documentationUrl": "https://github.com/bryaneschultz/craft-mix/blob/main/README.md",
+        "changelogUrl": "https://github.com/bryaneschultz/craft-mix/blob/main/CHANGELOG.md",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "components": {
+            "mix": "bryaneschultz\\mix\\services\\MixService"
+        },
+        "class": "bryaneschultz\\mix\\Mix"
+    }
+}
