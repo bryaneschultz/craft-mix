@@ -91,7 +91,7 @@ class MixService extends Component
 
         Craft::warning(
             Craft::t(
-                'mix',
+                'craft-mix',
                 'Unable to locate the key [{file}] in manifest file.',
                 ['file' => $file]
             ),
@@ -156,7 +156,7 @@ class MixService extends Component
 
         Craft::warning(
             Craft::t(
-                'mix',
+                'craft-mix',
                 'Unable to locate manifest file.'
             ),
             __METHOD__

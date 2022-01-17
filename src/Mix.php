@@ -60,14 +60,14 @@ class Mix extends Plugin
             'mix' => MixService::class,
         ]);
 
-        Craft::setAlias('@mix', $this->getBasePath());
+        Craft::setAlias('@craftMix', $this->getBasePath());
 
         Craft::$app->getRequest()->setIsConsoleRequest(false);
         Craft::$app->view->registerTwigExtension(new MixTwigExtension());
 
         Craft::info(
             Craft::t(
-                'mix',
+                'craft-mix',
                 '{name} plugin loaded',
                 ['name' => $this->name]
             ),
