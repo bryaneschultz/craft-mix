@@ -9,16 +9,17 @@ This plugin requires Craft CMS 3.x or later.
 
 ## Installation
 
-### Install with Composer
+### 1. Install with Composer
 
-In the terminal
+From the terminal
 
 ```
 cd /path/to/project
 composer require bryaneschultz/craft-mix
 ```
 
-### Install through Craft CMS
+
+### 2. Install through Craft CMS
 
 In the Control Panel, go to `Settings` → `Plugins` → `"Craft Mix"` → `Install`
 

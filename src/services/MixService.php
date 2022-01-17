@@ -39,7 +39,7 @@ class MixService extends Component
      * @var   string
      * @since 1.0.0
      */
-    private string $webroot = '@webroot';
+    private $webroot = '@webroot';
 
     /**
      * Laravel Mix manifest file.
@@ -47,7 +47,7 @@ class MixService extends Component
      * @var   string
      * @since 1.0.0
      */
-    private string $manifest = 'mix-manifest.json';
+    private $manifest = 'mix-manifest.json';
 
     /**
      * Regular expressions for Laravel manifest file.
@@ -55,7 +55,7 @@ class MixService extends Component
      * @var   array|string[]
      * @since 1.0.0
      */
-    private array $regex = [
+    private $regex = [
         '/[.\/]?css[\/]?/i',
         '/[.\/]?js[\/]?/i',
     ];
