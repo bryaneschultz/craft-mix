@@ -36,7 +36,7 @@ Nothing to configure at this time.
 
 ## Using Craft Mix
 
-###Basic Usage.
+### Basic Usage.
 
 By default, Craft Mix will use the version supplied by Laravel Mix.
 
@@ -55,7 +55,7 @@ If you want to disallow the versioning, pass `false` as a second parameter.
 <script src="{{ mix('js/app.js', false) }}"></script>
 ```
 
-###Advanced Usage.
+### Advanced Usage.
 
 If you want twig to handle the html for your asset, pass `true` as a third parameter.
 
