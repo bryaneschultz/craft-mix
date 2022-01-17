@@ -1,6 +1,6 @@
 # Craft Mix plugin for Craft CMS 3.x
 
-<p style="text-align: center;">
+<p align="center">
 
 ![GitHub release (by tag)](https://img.shields.io/github/downloads/bryaneschultz/craft-mix/v1.0.5/total)
 ![Packagist Downloads](https://img.shields.io/packagist/dm/bryaneschultz/craft-mix)
