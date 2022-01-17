@@ -35,7 +35,7 @@ class Mix extends Plugin
     /**
      * @var Mix
      */
-    public static Mix $plugin;
+    public static $plugin;
 
     // Public Properties
     // =========================================================================
