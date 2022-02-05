@@ -1,12 +1,5 @@
 # Craft Mix plugin for Craft CMS 3.x
 
-<p align="center">
-
-![GitHub release (by tag)](https://img.shields.io/github/downloads/bryaneschultz/craft-mix/v1.0.5/total)
-![Packagist Downloads](https://img.shields.io/packagist/dm/bryaneschultz/craft-mix)
-
-</p>
-
 ![Screenshot](resources/img/plugin-logo.svg)
 
 ## Requirements
@@ -28,7 +21,7 @@ composer require bryaneschultz/craft-mix
 
 ### 2. Install through Craft CMS
 
-In the Control Panel, go to `Settings` → `Plugins` → `"Craft Mix"` → `Install`
+In the Control Panel, go to `Settings` → `Plugins` → `Craft Mix` → `Install`
 
 
 ## Craft Mix Overview
